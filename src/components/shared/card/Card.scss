@@ -1,0 +1,35 @@
+.card{
+    padding: 16px;
+    background: rgba(0,0,0,0.04);
+    display: flex;
+    gap: 16px;
+    transition: all .3s ease;
+    &:hover{
+        background: rgba(0,0,0,0.12);
+    }
+    &__img{
+        img{
+            height: 160px;
+            width: 160px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__description{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        flex-direction: column;
+        text-align: center;
+    }
+  }

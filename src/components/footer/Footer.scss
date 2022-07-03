@@ -1,0 +1,13 @@
+.footer{
+    height: 180px;
+    min-height: 180px;
+    background-color: var(--primary);
+    color: var(--on-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo{
+        height: 60px;
+        width: 200px;
+    }
+}
