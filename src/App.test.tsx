@@ -3,7 +3,7 @@ import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 describe('App:', ()=>{
-  test('renders learn react link', () => {
+  test('Render react app', () => {
     const { container } = render(<MemoryRouter><App /></MemoryRouter>);
     expect(container.getElementsByClassName("app").length).toBe(1)
   });
